@@ -33,6 +33,7 @@ mod back_of_house{
 //     };
 //     meal.toast=String::from("wheat");
 // }
+// pub use crate::front_of_house::hosting; //for external functions to use this add_to_waitlist function
 use crate::front_of_house::hosting;
 pub fn restaurant(){
     hosting::add_to_waitlist();
